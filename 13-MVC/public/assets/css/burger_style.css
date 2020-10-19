@@ -2,15 +2,15 @@
   background-image: url("../img/download.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-color: #eb7272;
-  color: #e61d1d;
+  background-color: #ad2121;
+  color: #f7efef;
   margin-top: 3%;
 }
 .body {
-  color: #e49322;
+  color: #469237;
 }
 .panel-body {
-color: #f3ecec;
+background-color: #ebbb73;
 }
 .addburger{
   color: #f8f1f1;
@@ -21,13 +21,13 @@ color: #f3ecec;
 }
 #leftside {
   background-color: #5c5c5c;
-  color: white;
+  color:rgb(29, 150, 29);
   text-align: center;
   font-size: 1.3em;
 }
 #rightside {
   background-color: #e49322;
-  color: white;
+  color: rgb(29, 150, 29);
   text-align: center;
   font-size: 1.3em;
 }
