@@ -9,7 +9,7 @@ var burger = require("../models/burger.js");
 router.get("/", function(req, res) {
   burger.all(function(data) {
     var hbsObject = {
-      burger: data
+      burgers: data
     };
     console.log(hbsObject);
     res.render("index", hbsObject);
@@ -17,6 +17,7 @@ router.get("/", function(req, res) {
 });
 
 router.post("/api/burger", function(req, res) {
+  console.log(req.body);
   burger.create([
     "burger_name", "devoured"
   ], [
@@ -33,7 +34,7 @@ router.put("/api/burger/:id", function(req, res) {
   console.log("condition", condition);
 
   burger.update({
-    devoured: req.body.devoured
+    devoured: req.body.z
   }, condition, function(result) {
     if (result.changedRows == 0) {
       // If no rows were changed, then the ID must not exist, so 404
