@@ -1,39 +1,27 @@
-<h1>Eat-Da-Burger</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<h2>Burgers are delicious!</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burger App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
 
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
-    <li>{{this.burger_name}}</li>
-      {{ burgers/burgers-block sleep=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" />
+    <script src="/assets/js/burger.js"></script>
+</head>
 
-<h2>Burgers that are Devoured!</h2>
+<body>
 
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
-      {{ burgers/burgers-block sleep=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+    {{{ body }}}
 
-<h2>Add a Burger</h2>
-<form class="create-form">
+</body>
 
-  <div class="form-group">
-    <label for="ca">Burger Name:</label>
-    <input type="text" id="ca" name="name">
-  </div>
-
-  <div class="form-group">
-    <label for="devoured">Burger Time?</label><br>
-    <input type="radio" name="sleepy" value="1" checked> Devoured!<br>
-    <input type="radio" name="sleepy" value="0"> Awake
-  </div>
-
-  <button type="submit">Add Burger</button>
-</form>
+</html>
