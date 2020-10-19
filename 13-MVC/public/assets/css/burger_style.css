@@ -1,10 +1,20 @@
 .jumbotron {
-  background-image: url("../css/img/");
+  background-image: url("../img/download.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #eb7272;
+  color: #e61d1d;
   margin-top: 3%;
+}
+.body {
+  color: #e49322;
+}
+.panel-body {
+color: #e61d1d;
+}
+.addburger{
+  color: #e61d1d;
+
 }
 #newburger {
   color: #5c5c5c;

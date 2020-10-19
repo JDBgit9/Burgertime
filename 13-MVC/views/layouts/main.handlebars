@@ -1,87 +1,27 @@
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
 
-    <div class="jumbotron">
-        <h1>Burger Time</h1>
-        <p>Choose your burger</p>
-        <br>
-        <h2>Select a Burger</h2>
-        <panel>
-            <form class="create-form">
-                <div class="form-group">
-                    <label for="newburger">Order Fresh Burger</label>
-                    {{!-- <input type="text" id="newburger" name="burger"> --}}
-                    <select data-placeholder="" id="newburger" name="burger">
-                        <option value="Nothing Selected" selected>Please Select a Sandwich</option>
-                        <option value="Hamburger">Hamburger</option>
-                        <option value="CheeseBurger">CheeseBurger</option>
-                        <option value="BaconBurger">Bacon Burger</option>
-                        <option value="VeggieBurger">Veggie Burger</option>
-                        <option value="BlackBeanBurger">Black Bean Burger</option>
-                        <option value="ImpossibleBurger">Impossible Burger</option>
-                        <option value="GuacamoleBurger">Guacamole Burger</option>
-						<option value="DoubleStackBurger">Double Stackk Burger</option>
-						<option value="PizzaBurger">Pizza Burger</option>
-						<option value="SalmonBurger">Salmon Burger</option>
-						<option value="CharbroiledBurger">Charbroiled Burger</option>
-						<option value="WhopperStyleBurger">Whopper Style Burger</option>
-						<option value="BigMacStlyeBurger">Big Mac Style Burger</option>
-						<option value="AnimalStyleBurger">Animal Style Burger</option>
-                    </select>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burger App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
 
-                    <button type="submit" class="btn btn-success" id="addburger">
-                        <span class="fa fa-thumbs-up"></span>
-                    </button>
-                </div>
-            </form>
-        </panel>
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="panel panel-default">
-                <div class="panel-heading" id="leftside"><strong>Order Your Burger</strong>
-                    <p>Send order to cashier when ready for pick up</p>
-                </div>
-                <div class="panel-body">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/burger_style.css" type="text/css" />
+    <script src="/assets/js/burgers.js"></script>
+</head>
 
-                    <ul>
-                        {{#each burgers}}
-                        {{#unless devoured}}
+<body>
 
-                        <span><strong> {{this.id}} - {{this.burger_name}}</strong></span>
-                        <button type="button" class="eatburger btn btn-warning" id="eatbutton" data-id="{{this.id}}"
-                            data-newDevoured="{{devour}}"><span class="fa fa-usd"></span></button>
-                        <hr>
-                        {{/unless}}
-                        {{/each}}
-                    </ul>
+    {{{ body }}}
 
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="panel panel-default">
-                <div class="panel-heading" id="rightside"><strong>Burger is Ready for Pick Up</strong>
-                    <p>Remove order from pick up when delivered</p>
-                </div>
-                <div class="panel-body">
-                    <ul>
-                        {{#each burgers}}
-                        {{#if devoured}}
-                        <span><strong> {{this.id}} - {{this.burger_name}}</strong></span>
-                        <button type="button" class="trashburger btn btn-danger" id="trashbutton" data-id="{{this.id}}"
-                            data-newDevoured="{{devour}}"><span class="fa fa-trash"></span></button>
-                        <hr>
-                        {{/if}}
-                        {{/each}}
-                    </ul>
+</body>
 
-
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!--endrow -->
-</div>
-<!--endcontainer -->
+</html>

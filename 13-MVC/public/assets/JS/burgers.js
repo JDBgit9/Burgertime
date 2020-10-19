@@ -22,13 +22,13 @@ $(function() {
     event.preventDefault();
 
     var id = $(this).data("id");
-    var devouredState = {
+    var devoured = {
       devoured: 1
     };
 
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: devouredState
+      data: devoured
     }).then(function() {
       console.log("Burger devoured");
       location.reload();
