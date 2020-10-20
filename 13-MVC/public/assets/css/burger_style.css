@@ -2,7 +2,7 @@
   background-image: url("../img/download.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-color: #ad2121;
+  background-color: rgb(214,79,30);
   color: #f7efef;
   margin-top: 3%;
 }
@@ -12,7 +12,7 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-color: #111010;
-  color: #469237;
+  color: rgb(138,152,58);
 }
 .panel-body {
 background-color: #ebbb73;
@@ -25,14 +25,15 @@ background-color: #ebbb73;
   color: #5c5c5c;
 }
 #leftside {
-  background-color: #5c5c5c;
-  color:rgb(29, 150, 29);
+  background-color: rgb(248,150,43);
+  color: #f7efef;
   text-align: center;
   font-size: 1.3em;
 }
 #rightside {
-  background-color: #e49322;
-  color: rgb(29, 150, 29);
+  background-color: rgb(248,150,43);
+  color: #f7efef;
+  color: ;
   text-align: center;
   font-size: 1.3em;
 }
