@@ -6,6 +6,9 @@
   color: #f7efef;
   margin-top: 3%;
 }
+p {
+  color: #f7efef;
+}
 body {
   background-image: url("../img/BurgerBackground.jpeg");
   background-position: right;
