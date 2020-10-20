@@ -6,7 +6,12 @@
   color: #f7efef;
   margin-top: 3%;
 }
-.body {
+body {
+  background-image: url("../img/BurgerBackground.jpeg");
+  background-position: right;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #111010;
   color: #469237;
 }
 .panel-body {
