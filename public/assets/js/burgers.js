@@ -1,7 +1,7 @@
 $(function() {
   $(".create-form").on("submit", function(event) {
     event.preventDefault();
-
+// creating the new burger object
     var newBurger = {
       burger_name: $("#newburger")
         .val()
