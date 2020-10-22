@@ -7,7 +7,7 @@ In this asignment I created a burger logger with MYSQL, node, Express, Handlebar
 JDBgit9
 
 ## Year Created
-the year 2020
+2020
 
 # Full Name
 James D Beeks
