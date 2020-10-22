@@ -25,10 +25,10 @@ Jonny D, David Thompson, Wayne BAiley, JP Neverfeld, Ben Brumby, Katie, Campbell
 Yes I posted a video along with thisnment. 
 
 ## Sources/links
-undefined
+[burgertime](https://dashboard.heroku.com/apps/aqueous-taiga-71567)
 
 ## Badges
-undefined
+![burger badge](https://img.shields.io/github/license/JDBgit9/Burgertime)
 
 ## License 
 MIT please refer to the LICENSE.txt file to view.
