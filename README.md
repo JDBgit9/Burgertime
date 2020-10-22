@@ -22,7 +22,7 @@ Burgertime is a restaurant app that lets the users input the names of burgers th
 Jonny D, David Thompson, Wayne BAiley, JP Neverfeld, Ben Brumby, Katie, Campbell, Allysa D, Nicolaus Olah, Debbi Wilker, DJT, UCF Bootcamp course, My fellow classmates, AMp McQaiug, Satcy Hyric, Eduardo Gavlak, Brent havens, Grandma, Terrence Beeks, Shalis James, Universal Studios, Denise Sloan, My new Mac. 
 
 ## Provide instructions and examples for use. Include screenshots as needed.
-Yes I posted a video along with thisnment. 
+Yes I posted a video along with this assignment. 
 
 ## Sources/links
 [burgertime](https://dashboard.heroku.com/apps/aqueous-taiga-71567)
